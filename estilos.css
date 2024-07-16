@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+:root{
+    --color-primary: #98e8b7; 
+    --color-secondary: #29ADB2; 
+    --color-terciario: #D8EFD3;
+    --color-text: #0766AD; 
+    --tipo-texto: font-family: "Allan", serif; 
+}
+
+body{
+     background-color: var(--color-terciario);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+    
+h1 {
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: var(--color-text);
+    margin: 0;
+}
+
+h2{
+    color: var(--color-text);
+    font-family:"Allan", serif; 
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h3{
+  
+    font-weight: 400;
+    color: #00213a;
+}
+
+p{
+    
+    font-size: 400;
+ 
+    color: #000;
+}
+
+strong{
+    color: #044a80;
+}
+
+
+header{
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+   
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(20, 0, 92);
+    font-family:  "Allan", serif;
+    font-weight: 400;
+    font-size: 20px; 
+}
+
+section{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section p{
+    font-size: 20px;
+}
+
+footer p{
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+   
+    width: 840px ;
+}
+
+.bienvenida{
+    background-color: var(--color-primary);
+    align-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.opciones{
+     background-color: var(--color-secondary);
+     margin: 30px 350px 30px 350px;
+     align-items: center;   
+}
+
+.electroacupuntura{
+    height: 400px;
+
+}
+
+.servicios{
+    margin: 30px 350px;
+}
+
+.nosotros{
+    background-color: var(--color-secondary)
+}
+
+.mapa{
+    justify-content: center;
+    align-content:center;
+    display: flex;
+    flex-direction: row;
+}
+
+.registro {
+        margin: auto;
+        padding: 20px;
+        width: 50%;
+        background: var(--white);
+        border-radius: 8px;
+}
+
+.registro label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.registro input, .registro select{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.registro button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whatsapp{
+    width: 60px;
+}
+
+.login form {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background: var(--color-primary);
+    border-radius: 8px;
+}
+
+.login label {
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: var(--color-secondary);
+}
